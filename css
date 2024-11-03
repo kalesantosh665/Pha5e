@@ -1,0 +1,41 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 3rem;
+    transition: transform 0.3s ease;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.hero-cta {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.hero-cta:hover {
+    background-color: #555;
+}
